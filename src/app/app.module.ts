@@ -7,6 +7,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { Tab1Component } from './tabs/tab1/tab1.component';
 import { Tab2Component } from './tabs/tab2/tab2.component';
 import { Tab3Component } from './tabs/tab3/tab3.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Tab3Component } from './tabs/tab3/tab3.component';
     TabsComponent,
     Tab1Component,
     Tab2Component,
-    Tab3Component
+    Tab3Component,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
