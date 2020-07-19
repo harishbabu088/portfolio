@@ -1,0 +1,29 @@
+<div class="tabs">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        [routerLink]="['/tabs/tab1']"
+        routerLinkActive="active-link"
+        >Tab1</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        [routerLink]="['/tabs/tab2']"
+        routerLinkActive="active-link"
+        >#Tab2</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        [routerLink]="['/tabs/tab3']"
+        routerLinkActive="active-link"
+        >#Tab3</a
+      >
+    </li>
+  </ul>
+  <router-outlet></router-outlet>
+</div>

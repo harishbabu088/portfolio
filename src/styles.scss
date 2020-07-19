@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+  background-color: cyan;
+}
+.tabs {
+  padding-top: 20px;
+}
+.active-link {
+  color: black;
+  background-color: white;
+}
+.tabback {
+  color: black;
+  background-color: white;
+  width: 50%;
+  min-height: 30rem;
+}
